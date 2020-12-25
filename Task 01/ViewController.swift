@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         email.setUnderLine()
         pwd.setUnderLine()
         
+        
+        
         self.hideKeyboardWhenTappedAround()
     }
 
