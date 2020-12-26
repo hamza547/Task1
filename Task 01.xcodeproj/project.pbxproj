@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		043069BA258FAA1400305896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069B9258FAA1400305896 /* AppDelegate.swift */; };
 		043069BC258FAA1400305896 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069BB258FAA1400305896 /* SceneDelegate.swift */; };
-		043069BE258FAA1400305896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069BD258FAA1400305896 /* ViewController.swift */; };
+		043069BE258FAA1400305896 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069BD258FAA1400305896 /* LoginViewController.swift */; };
 		043069C1258FAA1400305896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043069BF258FAA1400305896 /* Main.storyboard */; };
 		043069C3258FAA1500305896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043069C2258FAA1500305896 /* Assets.xcassets */; };
 		043069C6258FAA1500305896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043069C4258FAA1500305896 /* LaunchScreen.storyboard */; };
@@ -22,6 +22,7 @@
 		04CBE33D2595D0CC007D84CB /* ValidationMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE33C2595D0CC007D84CB /* ValidationMethods.swift */; };
 		04CBE35F2595D9F4007D84CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE35E2595D9F4007D84CB /* BaseViewController.swift */; };
 		04CBE3752597BF01007D84CB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE3742597BF01007D84CB /* Alert.swift */; };
+		04CBE3842597C92A007D84CB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE3832597C92A007D84CB /* SignupViewController.swift */; };
 		2984074452CFE5DE27FAA6E3 /* Pods_Task_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B29625176E3D6DEE5E11FD /* Pods_Task_01.framework */; };
 		991BDF3CA9B0B3F567AA7A04 /* Pods_Task_01Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D7C42F5C1102701C209A46 /* Pods_Task_01Tests.framework */; };
 		B20B81D1CF11B5550718F8EF /* Pods_Task_01_Task_01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7676658BEC3BF658D88AFBC9 /* Pods_Task_01_Task_01UITests.framework */; };
@@ -49,7 +50,7 @@
 		043069B6258FAA1400305896 /* Task 01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task 01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043069B9258FAA1400305896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043069BB258FAA1400305896 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		043069BD258FAA1400305896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043069BD258FAA1400305896 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		043069C0258FAA1400305896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043069C2258FAA1500305896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043069C5258FAA1500305896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		04CBE33C2595D0CC007D84CB /* ValidationMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationMethods.swift; sourceTree = "<group>"; };
 		04CBE35E2595D9F4007D84CB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		04CBE3742597BF01007D84CB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		04CBE3832597C92A007D84CB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		26FB410BCF1FED56357E5EA0 /* Pods-Task 01-Task 01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task 01-Task 01UITests.debug.xcconfig"; path = "Target Support Files/Pods-Task 01-Task 01UITests/Pods-Task 01-Task 01UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		31F8B2A33E9A50F523FE9B55 /* Pods-Task 01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task 01Tests.release.xcconfig"; path = "Target Support Files/Pods-Task 01Tests/Pods-Task 01Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5067E88D0404E7D320762C0C /* Pods-Task 01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task 01Tests.debug.xcconfig"; path = "Target Support Files/Pods-Task 01Tests/Pods-Task 01Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,8 +165,9 @@
 		04CBE3282595CE8F007D84CB /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
-				043069BD258FAA1400305896 /* ViewController.swift */,
+				043069BD258FAA1400305896 /* LoginViewController.swift */,
 				04CBE35E2595D9F4007D84CB /* BaseViewController.swift */,
+				04CBE3832597C92A007D84CB /* SignupViewController.swift */,
 			);
 			path = "View controllers";
 			sourceTree = "<group>";
@@ -461,9 +464,10 @@
 			files = (
 				04CBE3302595CFA7007D84CB /* LogoTextField.swift in Sources */,
 				04CBE33D2595D0CC007D84CB /* ValidationMethods.swift in Sources */,
+				04CBE3842597C92A007D84CB /* SignupViewController.swift in Sources */,
 				043069F5258FC7C400305896 /* TextFieldExtension.swift in Sources */,
 				04CBE3382595D048007D84CB /* ViewControllerExtension.swift in Sources */,
-				043069BE258FAA1400305896 /* ViewController.swift in Sources */,
+				043069BE258FAA1400305896 /* LoginViewController.swift in Sources */,
 				04CBE35F2595D9F4007D84CB /* BaseViewController.swift in Sources */,
 				043069ED258FBC3300305896 /* BorderedButton.swift in Sources */,
 				043069BA258FAA1400305896 /* AppDelegate.swift in Sources */,
