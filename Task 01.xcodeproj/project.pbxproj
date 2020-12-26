@@ -16,7 +16,12 @@
 		043069D1258FAA1500305896 /* Task_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069D0258FAA1500305896 /* Task_01Tests.swift */; };
 		043069DC258FAA1500305896 /* Task_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069DB258FAA1500305896 /* Task_01UITests.swift */; };
 		043069ED258FBC3300305896 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069EC258FBC3300305896 /* BorderedButton.swift */; };
-		043069F5258FC7C400305896 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069F4258FC7C300305896 /* Extensions.swift */; };
+		043069F5258FC7C400305896 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043069F4258FC7C300305896 /* TextFieldExtension.swift */; };
+		04CBE3302595CFA7007D84CB /* LogoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE32F2595CFA7007D84CB /* LogoTextField.swift */; };
+		04CBE3382595D048007D84CB /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE3372595D048007D84CB /* ViewControllerExtension.swift */; };
+		04CBE33D2595D0CC007D84CB /* ValidationMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE33C2595D0CC007D84CB /* ValidationMethods.swift */; };
+		04CBE35F2595D9F4007D84CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE35E2595D9F4007D84CB /* BaseViewController.swift */; };
+		04CBE3752597BF01007D84CB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CBE3742597BF01007D84CB /* Alert.swift */; };
 		2984074452CFE5DE27FAA6E3 /* Pods_Task_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B29625176E3D6DEE5E11FD /* Pods_Task_01.framework */; };
 		991BDF3CA9B0B3F567AA7A04 /* Pods_Task_01Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D7C42F5C1102701C209A46 /* Pods_Task_01Tests.framework */; };
 		B20B81D1CF11B5550718F8EF /* Pods_Task_01_Task_01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7676658BEC3BF658D88AFBC9 /* Pods_Task_01_Task_01UITests.framework */; };
@@ -56,7 +61,12 @@
 		043069DB258FAA1500305896 /* Task_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_01UITests.swift; sourceTree = "<group>"; };
 		043069DD258FAA1500305896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043069EC258FBC3300305896 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
-		043069F4258FC7C300305896 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		043069F4258FC7C300305896 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		04CBE32F2595CFA7007D84CB /* LogoTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTextField.swift; sourceTree = "<group>"; };
+		04CBE3372595D048007D84CB /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		04CBE33C2595D0CC007D84CB /* ValidationMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationMethods.swift; sourceTree = "<group>"; };
+		04CBE35E2595D9F4007D84CB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		04CBE3742597BF01007D84CB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		26FB410BCF1FED56357E5EA0 /* Pods-Task 01-Task 01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task 01-Task 01UITests.debug.xcconfig"; path = "Target Support Files/Pods-Task 01-Task 01UITests/Pods-Task 01-Task 01UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		31F8B2A33E9A50F523FE9B55 /* Pods-Task 01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task 01Tests.release.xcconfig"; path = "Target Support Files/Pods-Task 01Tests/Pods-Task 01Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5067E88D0404E7D320762C0C /* Pods-Task 01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task 01Tests.debug.xcconfig"; path = "Target Support Files/Pods-Task 01Tests/Pods-Task 01Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,15 +130,14 @@
 		043069B8258FAA1400305896 /* Task 01 */ = {
 			isa = PBXGroup;
 			children = (
+				04CBE32C2595CEC1007D84CB /* Extensions */,
+				04CBE3282595CE8F007D84CB /* View controllers */,
+				04CBE32E2595CF07007D84CB /* Other files */,
+				04CBE32D2595CEE2007D84CB /* Storyboard */,
 				043069B9258FAA1400305896 /* AppDelegate.swift */,
 				043069BB258FAA1400305896 /* SceneDelegate.swift */,
-				043069BD258FAA1400305896 /* ViewController.swift */,
-				043069BF258FAA1400305896 /* Main.storyboard */,
 				043069C2258FAA1500305896 /* Assets.xcassets */,
-				043069C4258FAA1500305896 /* LaunchScreen.storyboard */,
 				043069C7258FAA1500305896 /* Info.plist */,
-				043069EC258FBC3300305896 /* BorderedButton.swift */,
-				043069F4258FC7C300305896 /* Extensions.swift */,
 			);
 			path = "Task 01";
 			sourceTree = "<group>";
@@ -149,6 +158,44 @@
 				043069DD258FAA1500305896 /* Info.plist */,
 			);
 			path = "Task 01UITests";
+			sourceTree = "<group>";
+		};
+		04CBE3282595CE8F007D84CB /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				043069BD258FAA1400305896 /* ViewController.swift */,
+				04CBE35E2595D9F4007D84CB /* BaseViewController.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		04CBE32C2595CEC1007D84CB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043069F4258FC7C300305896 /* TextFieldExtension.swift */,
+				04CBE3372595D048007D84CB /* ViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04CBE32D2595CEE2007D84CB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				043069C4258FAA1500305896 /* LaunchScreen.storyboard */,
+				043069BF258FAA1400305896 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		04CBE32E2595CF07007D84CB /* Other files */ = {
+			isa = PBXGroup;
+			children = (
+				043069EC258FBC3300305896 /* BorderedButton.swift */,
+				04CBE32F2595CFA7007D84CB /* LogoTextField.swift */,
+				04CBE33C2595D0CC007D84CB /* ValidationMethods.swift */,
+				04CBE3742597BF01007D84CB /* Alert.swift */,
+			);
+			path = "Other files";
 			sourceTree = "<group>";
 		};
 		78471330CEFBB0FAA3933D0D /* Pods */ = {
@@ -412,10 +459,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043069F5258FC7C400305896 /* Extensions.swift in Sources */,
+				04CBE3302595CFA7007D84CB /* LogoTextField.swift in Sources */,
+				04CBE33D2595D0CC007D84CB /* ValidationMethods.swift in Sources */,
+				043069F5258FC7C400305896 /* TextFieldExtension.swift in Sources */,
+				04CBE3382595D048007D84CB /* ViewControllerExtension.swift in Sources */,
 				043069BE258FAA1400305896 /* ViewController.swift in Sources */,
+				04CBE35F2595D9F4007D84CB /* BaseViewController.swift in Sources */,
 				043069ED258FBC3300305896 /* BorderedButton.swift in Sources */,
 				043069BA258FAA1400305896 /* AppDelegate.swift in Sources */,
+				04CBE3752597BF01007D84CB /* Alert.swift in Sources */,
 				043069BC258FAA1400305896 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

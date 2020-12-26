@@ -35,7 +35,7 @@
                                             <constraint firstAttribute="height" constant="80" id="SaP-N9-edA"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSn-UQ-yOi" customClass="TidyTextField" customModule="Task_01" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSn-UQ-yOi" customClass="LogoTextField" customModule="Task_01" customModuleProvider="target">
                                         <rect key="frame" x="35" y="338.5" width="344" height="40"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -65,7 +65,7 @@
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="ZUz-wE-Y8O"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Passwort" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qga-Ch-NRk" customClass="TidyTextField" customModule="Task_01" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Passwort" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qga-Ch-NRk" customClass="LogoTextField" customModule="Task_01" customModuleProvider="target">
                                         <rect key="frame" x="35" y="408.5" width="344" height="40"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
